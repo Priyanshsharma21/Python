@@ -1,0 +1,7 @@
+# FS Notes -> using with and as we can perform op in file
+# 1. IF file dont exist then it create it for us
+# 2. To write mode will be 'w' for read 'r' for append 'a'
+
+File Paths
+1. Absolute which means file path that starts from root folder
+2. Relative means from that relative path from the path you are working from (curr path)

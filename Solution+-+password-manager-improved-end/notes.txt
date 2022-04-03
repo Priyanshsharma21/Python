@@ -1,0 +1,28 @@
+
+try catch
+In order to detect error so that our programe will not stop on error line and continue
+other execution we use try catch error
+
+key(not exist), index(not exist), type error(int to str)
+
+try -> code that can give us error
+excect-> If error comes this runs
+else -> our try success then else run
+finnaly -> dont care it will always runs
+
+try:
+file = open("hello.txt")
+dict = {name:"priyash"}
+print(dict["age"])
+
+except FileNotFoundError:
+file = open("hello.txt", "w")
+except KeyError as errorMessage:
+print(f"There is a {errorMessange}")
+
+else:
+content = file.read
+print(content)
+
+finally :
+file.close()

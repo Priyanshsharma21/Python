@@ -1,0 +1,41 @@
+# First we interact with computer with console
+# Later mac relese first GUI computer
+# Later Xerox Parc make collabe with windos to make GUI windows
+
+In turtle we have write function which take milltiple args in input
+But if we dont fill those args it take it as default
+
+*args -> Positional args
+in function if we write like this, it will take only 2 args
+
+def add(num1,num2):
+return num1+num2
+
+add(2,4)
+
+But what we wnat multiple args so we can use (*args)
+it will allow us to give as much args as we want
+
+def add(*args):
+for i in args:
+print(i)
+
+add(a=10,b=20,c=40,z=20....)
+
+it put all the args in tuple and loop all through and perform inst
+
+
+**kwargs -> Keyword args
+
+def calculator(**kwargs):
+
+
+
+
+calculator(add=3, mult=5)
+
+It store key value -> dict values
+
+tkinter layout->
+1.Pack(side="left") start from top and pack items in loc=gical manner
+2.Place(x,y) -> we can gove coordinated
