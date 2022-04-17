@@ -1,0 +1,28 @@
+How internet work
+
+1.
+Internet is like a long wire through which all the devices (computer) connected
+Some computers are there 27/7 which are called servers
+And computer who request is client
+
+2.
+We type google.com
+client(us)----request send to -----> Internet provider (ISP)
+ISP-----send it to ---> DNS server-----> DNS return website IP address
+Now we got ip address
+we send that ip to ISP and ISP through internet backbone send it to SERVER
+from there we get our data
+
+How website work
+
+We need a browser who look up to ipaddress from DNS
+we send request of data and this data is in form of HTML,CSS,JS
+HTML-> Structure of our website
+CSS -> Stying of website
+JS -> Functionality of website
+
+
+HTML ->
+We have elemant, attributes-> combine called tag
+we have selfClosing and clocing tags
+

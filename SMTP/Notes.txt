@@ -1,0 +1,4 @@
+SMTP -> SImple mail transfer protocol
+It contain all the set of rules thet how our mail will be transfer from one server to other
+and filnally to reciver (How the transfer in internet)(Like sending mail to our
+friend via post office)

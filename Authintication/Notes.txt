@@ -1,0 +1,4 @@
+Authintication using API's
+Some of apis are free but some are paid
+Thats why api providers have a api key to track of your api usage
+

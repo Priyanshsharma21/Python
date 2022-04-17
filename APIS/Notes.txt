@@ -1,0 +1,19 @@
+API -> it is a interface between our program and external system
+When we send req as structured accordingly to external server it will respond to our request
+
+"API is like menu through which we can interact with external system data"
+
+Endpoint -> Is the url which will give us the data
+http://api.open-notify.org/iss-now.json ---> Like this
+
+Enviroment VAriables ->
+1. For convenience ->
+When we deploy large app we dont wanna make changes in main.py insteed there is some sort of way like evn variable
+in which we make changes
+2. Security ->
+Also you dont wanna show some sort of data like api key to public so we store this things in env variable
+
+export API_KEY=3jn3en3n3nrnn3n4ne3me
+use
+os.environ.get("API_KEY")
+in use

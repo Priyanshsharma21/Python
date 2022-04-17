@@ -1,0 +1,11 @@
+We seen get request in which we request for data and server give us responce of data
+
+1.Post()
+request.post() is when we send data to server and we get confirmation response like
+sending a post in fb, twitter,insta,googlesheets
+
+2.Put()
+when we wanna update data
+
+3. delete()
+data

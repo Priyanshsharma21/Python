@@ -1,0 +1,9 @@
+Beautiful soup is a (Python library) parser used for web scrapping from html and xml
+
+Is llegal
+Unless we scrape copyright data it is legal
+Unless we use for commercial use it is legal
+Unless we use direct website without authentication like (facebook, insta)
+
+If a website have api use that api if not use scrapping
+It can be a lode on server

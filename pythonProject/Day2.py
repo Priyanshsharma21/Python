@@ -3,7 +3,15 @@
 #
 # message = "Hello"[0];
 # print(message);
-#
+#As we are declearing the variable we can do this to tell compiler that this variable must be of some type
+name:str
+age:int
+height:float
+can_vote:bool
+
+# def is_votable(canVote:bool)->bool: // this tells compiler that it take bool type in nd give bool type output
+
+# and in future it will tell us hint that it is a type of variable so use this
 # # Integer ->
 #
 # age = 20;

@@ -86,3 +86,4 @@ student_dist = {
 
 new_table = pandas.DataFrame(student_dist)
 new_table.to_csv("Student.csv")
+print(new_table)
