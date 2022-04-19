@@ -3,8 +3,8 @@ import requests
 from smtplib import SMTP
 
 URL = "https://news.ycombinator.com/"
-EMAIL = "piyuindia220@gmail.com"
-PASSWORD = "Piyu@412002"
+EMAIL = ""
+PASSWORD = ""
 
 res = requests.get(URL)
 html = res.text
@@ -40,7 +40,7 @@ print(link_of_popular_article)
 with SMTP("smtp.gmail.com") as connection:
     connection.starttls()
     connection.login(user=EMAIL, password=PASSWORD)
-    connection.sendmail(from_addr=EMAIL, to_addrs="piyuindia4@gmail.com",
+    connection.sendmail(from_addr=EMAIL, to_addrs="",
                         msg=f"Subject:Most popular article(Hacker News)\n\n"
                             f"{popular_article}\n{link_of_popular_article}")
 

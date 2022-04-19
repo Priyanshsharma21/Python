@@ -9,8 +9,8 @@ driver = webdriver.Chrome(executable_path=chrome_driver_path)
 URL = "https://www.linkedin.com/jobs/search/?f_AL=true&f_E=1&geoId=104994045&keywords=python%20developer&location=Moscow%20City%2C%20Russia"
 
 
-EMAIL = "piyuindia220@gmail.com"
-PASSWORD = "Piyu@412002"
+EMAIL = ""
+PASSWORD = ""
 driver.get(URL)
 # ------------------------------------------------------------------
 # sign in

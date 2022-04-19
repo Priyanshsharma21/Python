@@ -7,8 +7,8 @@ import requests
 from bs4 import BeautifulSoup
 from smtplib import SMTP
 # ----------------------------------------------------------------------
-GM_EMAIL = "piyuindia4@gmail.com"
-GM_PASSWORD = "Piyu@412002"
+GM_EMAIL = ""
+GM_PASSWORD = ""
 # -----------------------------------------------------------------------
 chrome_driver_path = "C:\devlopment\chromedriver_win32\chromedriver"
 driver = webdriver.Chrome(executable_path=chrome_driver_path)

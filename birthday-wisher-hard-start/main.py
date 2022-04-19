@@ -5,8 +5,8 @@ import pandas
 PLACEHOLDER = "[NAME]"
 
 # my email
-my_email = "piyuindia220@gmail.com"
-password = "Piyu@412002"
+my_email = ""
+password = ""
 
 # today
 today = datetime.now()

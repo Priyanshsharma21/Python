@@ -5,8 +5,8 @@ from smtplib import SMTP
 # ---------------------------------------------------------
 
 URL = "https://www.amazon.in/MuscleBlaze-Performance-Informed-Certified-Chocolate/dp/B09QGCD8QK/ref=sr_1_6?crid=3FVJHBGH6RNJ8&keywords=mb%2Bbiozyme&qid=1649358103&sprefix=mb%2Bbiozyme%2Caps%2C415&sr=8-6&th=1"
-EMAIL = "piyuindia220@gmail.com"
-PASSWORD = "Piyu@412002"
+EMAIL = ""
+PASSWORD = ""
 # ----------------------------------------------------------------------
 header = {
     "Accept-Language" : "en-US,en;q=0.9,hi;q=0.8",
@@ -30,7 +30,7 @@ if price_float<Target_price:
         connection.starttls()
         connection.login(user=EMAIL, password=PASSWORD)
         connection.sendmail(from_addr=EMAIL,
-                            to_addrs="piyuindia4@gmail.com",
+                            to_addrs="",
                             msg=f"Subject: Amazon Price Alert!!! \n\n"
                                 f" {pro_name} is now {price_float}")
 

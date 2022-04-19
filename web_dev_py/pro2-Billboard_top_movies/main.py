@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 from smtplib import SMTP
 # ---------------------------------------------------------------------
 URL = "https://web.archive.org/web/20200518073855/https://www.empireonline.com/movies/features/best-movies-2/"
-EMAIL = "piyuindia220@gmail.com"
-PASSWORD = "Piyu@412002"
+EMAIL = ""
+PASSWORD = ""
 # ----------------------------------------------------------------------
 response = requests.get(URL)
 html = response.text
@@ -23,7 +23,7 @@ with SMTP("smtp.gmail.com") as connection:
     connection.starttls();
     connection.login(user=EMAIL, password=PASSWORD)
     connection.sendmail(from_addr=EMAIL,
-                        to_addrs="piyuindia4@gmail.com",
+                        to_addrs="",
                         msg=f"Subject:Top Movies To Watch: \n\n"
                             f"{movies}")
 

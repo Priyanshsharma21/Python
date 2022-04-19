@@ -6,8 +6,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from time import sleep
 SIMILAR_ACCOUNT = "derricchew"
-INSTA_EMAIL = "piyuindia4@gmail.com"
-INSTA_PASSWORD = "Piyu@412002"
+INSTA_EMAIL = ""
+INSTA_PASSWORD = ""
 
 chrome_driver_path = "C:\devlopment\chromedriver_win32\chromedriver"
 

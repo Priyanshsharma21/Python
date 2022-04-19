@@ -4,8 +4,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
 
-GM_EMAIL = "piyuindia4@gmail.com"
-GM_PASSWORD = "Piyu@412002"
+GM_EMAIL = ""
+GM_PASSWORD = ""
 
 
 chrome_driver_path = "C:\devlopment\chromedriver_win32\chromedriver"

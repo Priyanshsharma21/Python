@@ -4,8 +4,8 @@ from smtplib import SMTP
 import time
 
 
-my_email = "piyuindia220@gmail.com"
-password = "Piyu@412002"
+my_email = ""
+password = ""
 
 # we request for data through endpoint and get response
 def is_iss_on_top():

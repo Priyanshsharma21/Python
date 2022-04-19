@@ -2,8 +2,8 @@ from flask import Flask,render_template,request
 import requests
 from smtplib import SMTP
 
-EMAIL = "piyuindia220@gmail.com"
-PASSWORD = "Piyu@412002"
+EMAIL = ""
+PASSWORD = ""
 
 app = Flask(__name__)
 
@@ -45,7 +45,7 @@ def send_email(name,email,phno,message):
         connection.starttls()
         connection.login(user=EMAIL, password=PASSWORD)
         connection.sendmail(from_addr=EMAIL,
-                            to_addrs="piyuindia4@gmail.com",
+                            to_addrs="",
                             msg=f"Subject: New User On Blog \n\n {message}")
 
 

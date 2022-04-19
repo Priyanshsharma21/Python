@@ -122,7 +122,7 @@ website_ip.focus()
 website_ip.grid(column=1, row=1, columnspan=2)
 
 email_ip = Entry(width=35)
-email_ip.insert(END, "piyuindia4@gmail.com")
+email_ip.insert(END, "")
 email_ip.grid(column=1, row=2, columnspan=2)
 
 pass_ip = Entry(width=17)

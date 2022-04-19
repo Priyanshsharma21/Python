@@ -6,8 +6,8 @@ from selenium.webdriver.common.by import By
 from time import sleep
 PROMISED_DOWN = 150
 PROMISED_UP = 10
-TWITTER_EMAIL = "piyuindia4@gmail.com"
-TWITTER_PASSWORD = "Piyu@412002"
+TWITTER_EMAIL = ""
+TWITTER_PASSWORD = ""
 
 
 
@@ -93,6 +93,6 @@ class InternetSpeedTwitterBot:
 
 
 
-bot = InternetSpeedTwitterBot()
-bot.get_internet_speed()
-bot.tweet_at_provider()
+# bot = InternetSpeedTwitterBot()
+# bot.get_internet_speed()
+# bot.tweet_at_provider()
