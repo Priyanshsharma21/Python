@@ -3,9 +3,9 @@ from smtplib import SMTP
 account_sid = "AC55baa23c3f99306ec5716664ae584ec8"
 auth_token = "0aca884ebdbbf048d536f394958efe10"
 Verified_number = "+15705198771"
-My_Number = "+917999937157"
-my_email = "piyuindia220@gmail.com"
-password = "Piyu@412002"
+My_Number = ""
+my_email = ""
+password = ""
 
 class NotificationManager:
 
