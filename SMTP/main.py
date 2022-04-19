@@ -1,7 +1,7 @@
 from smtplib import SMTP
 #
-# my_email = "piyuindia220@gmail.com"
-# password = "Piyu@412002"
+# my_email = ""
+# password = ""
 # # gmail smtp and creating its object
 # with SMTP("smtp.gmail.com", port=587) as connection:
 #
@@ -39,8 +39,8 @@ if my_day=="Monday":
         data = quotes.readlines()
         r_quote = random.choice(data)
 
-    my_email = "piyuindia220@gmail.com"
-    password = "Piyu@412002"
+    my_email = ""
+    password = ""
 
     with SMTP("smtp.gmail.com", port=587) as connection:
 
@@ -49,7 +49,7 @@ if my_day=="Monday":
         connection.login(user=my_email, password=password)
 
         connection.sendmail(from_addr=my_email,
-                            to_addrs="piyuindia4@gmail.com",
+                            to_addrs="",
                             msg=f"Subject: Monday Motivation \n\n "
                                 f"{r_quote}")
 
