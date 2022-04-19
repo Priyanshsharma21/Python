@@ -16,14 +16,14 @@ def send_sms(message):
         .create(
         body=f"Hello Today weather is {message}",
         from_="+15705198771",
-        to="+917999937157"
+        to=""
     )
 
 
 API_Key = "f7cd520b1c47239d2ab0ab7be491dad8"
 URL = "https://api.openweathermap.org/data/2.5/onecall"
-my_email = "piyuindia220@gmail.com"
-password = "Piyu@412002"
+my_email = ""
+password = ""
 
 parameters = {
     "lat": 22.176401,
@@ -47,7 +47,7 @@ def send_email(message):
     with SMTP("smtp.gmail.com", port=587) as connection:
         connection.starttls()
         connection.login(user=my_email, password=password)
-        connection.sendmail(from_addr=my_email, to_addrs="piyuindia4@gmail.com",
+        connection.sendmail(from_addr=my_email, to_addrs="",
                             msg=f"Subject:Weather Message Today\n\n {message}")
 
 
