@@ -1,7 +1,12 @@
 from smtplib import SMTP
 #
+<<<<<<< HEAD
 # my_email =
 # password =
+=======
+# my_email = ""
+# password = ""
+>>>>>>> 7416204441fa49b722fde34d0ac2819581e164b5
 # # gmail smtp and creating its object
 # with SMTP("smtp.gmail.com", port=587) as connection:
 #
